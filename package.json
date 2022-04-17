@@ -1,0 +1,9 @@
+{
+  "name": "Breakfast",
+  "version": "1.0.0",
+  "dependencies": {
+    "vivus": "^0.4.6",
+    "datetime": "^0.0.3",
+
+  }
+}
