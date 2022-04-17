@@ -27,7 +27,8 @@ html{
     src: url('/font/PPNeueMachina-Light.woff2') format('woff2');}
 @font-face {
     font-family: 'PPNeueMachina Ultrabold';
-    src: url('/font/PPNeueMachina-Ultrabold.woff2') format('woff2');}
+    src: url('/font/PPNeueMachina-Ultrabold.woff2') format('woff2');
+    src: url('/font/PPNeueMachina-Ultrabold.woff') format('woff');}
 @font-face {
     font-family: 'Sporting Grotesque Regular';
     src: url('/font/Sporting_Grotesque-Regular_web.woff2') format('woff2');}
@@ -112,7 +113,7 @@ html{
 }
 #headerdiv > .logotrace { grid-area: 1 / 2 / 3 / span 16; z-index: 12;margin-top:350px;
 
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #headerdiv > .logotrace2 { grid-area: 1 / 2 / 3 / span 16; z-index: 6; margin-top:350px; margin-bottom: -50px;
     animation: fadeIn 5s;
@@ -380,7 +381,7 @@ margin-top: -650px;
 input,
 textarea,
 button {
-    font-family: "PPMonumentExtended Black";
+    font-family: "PPMonumentExtended Black", sans-serif;
     font-size: 100%;
     background: none;
     outline: none;
@@ -481,7 +482,7 @@ ul {
 }
 
 .handmade-form button {
-    font-family: "PPMonumentExtended Black";
+    font-family: "PPMonumentExtended Black", sans-serif;
     color: midnightblue;
     padding: 5px 10px;
 }
