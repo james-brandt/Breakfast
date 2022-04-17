@@ -15,34 +15,43 @@ html{
 @font-face {
     font-family: 'Basteleur';
     src: url('/font/Basteleur-Bold.woff2') format('woff2');
+    src: url('/font/Basteleur-Bold.woff') format('woff');
 }
 @font-face {
     font-family: 'Sporting-Grotesque';
-    src: url('/font/Sporting_Grotesque-Bold_web.woff2') format('woff2');}
+    src: url('/font/Sporting_Grotesque-Bold_web.woff2') format('woff2');
+src: url('/font/SportingGrotesque-Bold.woff') format('woff');}
 @font-face {
     font-family: 'PPNeueMachina';
-    src: url('/font/PPNeueMachina-Regular.woff2') format('woff2');}
+    src: url('/font/PPNeueMachina-Regular.woff2') format('woff2');
+    src: url('/font/PPNeueMachina-Regular.woff') format('woff');}
 @font-face {
     font-family: 'PPNeueMachina-Light';
-    src: url('/font/PPNeueMachina-Light.woff2') format('woff2');}
+    src: url('/font/PPNeueMachina-Light.woff2') format('woff2');
+    src: url('/font/PPNeueMachina-Light.woff') format('woff');}
 @font-face {
     font-family: 'PPNeueMachina-Ultrabold';
     src: url('/font/PPNeueMachina-Ultrabold.woff2') format('woff2');
     src: url('/font/PPNeueMachina-Ultrabold.woff') format('woff');}
 @font-face {
     font-family: 'Sporting-Grotesque-Regular';
+    src: url('/font/SportingGrotesque-Regular.woff') format('woff2');
     src: url('/font/Sporting_Grotesque-Regular_web.woff2') format('woff2');}
 @font-face {
     font-family: 'Moret';
+    src: url('/font/moret-book.woff') format('woff');
     src: url('/font/moret.woff2') format('woff2');}
 @font-face {
     font-family: 'PPMonumentExtendedBlack';
+    src: url('/font/PPMonumentExtended-Black.woff') format('woff');
     src: url('/font/PPMonumentExtended-Black.woff2') format('woff2');}
 @font-face {
     font-family: 'PPMonumentExtended-Light';
+    src: url('/font/PPMonumentExtended-Light.woff') format('woff');
     src: url('/font/PPMonumentExtended-Light.woff2') format('woff2');}
 @font-face {
     font-family: 'PPMonumentExtended-Regular';
+    src: url('/font/PPMonumentExtended-Regular.woff') format('woff');
     src: url('/font/PPMonumentExtended-Regular.woff2') format('woff2');}
 
 .phone, .email, .line{
