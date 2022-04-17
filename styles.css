@@ -17,32 +17,32 @@ html{
     src: url('/font/Basteleur-Bold.woff2') format('woff2');
 }
 @font-face {
-    font-family: 'Sporting Grotesque';
+    font-family: 'Sporting-Grotesque';
     src: url('/font/Sporting_Grotesque-Bold_web.woff2') format('woff2');}
 @font-face {
     font-family: 'PPNeueMachina';
     src: url('/font/PPNeueMachina-Regular.woff2') format('woff2');}
 @font-face {
-    font-family: 'PPNeueMachina Light';
+    font-family: 'PPNeueMachina-Light';
     src: url('/font/PPNeueMachina-Light.woff2') format('woff2');}
 @font-face {
-    font-family: 'PPNeueMachina Ultrabold';
+    font-family: 'PPNeueMachina-Ultrabold';
     src: url('/font/PPNeueMachina-Ultrabold.woff2') format('woff2');
     src: url('/font/PPNeueMachina-Ultrabold.woff') format('woff');}
 @font-face {
-    font-family: 'Sporting Grotesque Regular';
+    font-family: 'Sporting-Grotesque-Regular';
     src: url('/font/Sporting_Grotesque-Regular_web.woff2') format('woff2');}
 @font-face {
     font-family: 'Moret';
     src: url('/font/moret.woff2') format('woff2');}
 @font-face {
-    font-family: 'PPMonumentExtended Black';
+    font-family: 'PPMonumentExtendedBlack';
     src: url('/font/PPMonumentExtended-Black.woff2') format('woff2');}
 @font-face {
-    font-family: 'PPMonumentExtended Light';
+    font-family: 'PPMonumentExtended-Light';
     src: url('/font/PPMonumentExtended-Light.woff2') format('woff2');}
 @font-face {
-    font-family: 'PPMonumentExtended Regular';
+    font-family: 'PPMonumentExtended-Regular';
     src: url('/font/PPMonumentExtended-Regular.woff2') format('woff2');}
 
 .phone, .email, .line{
@@ -154,7 +154,7 @@ width: 1300px;}
 .bodycontainer > #timebox > h3 {
     padding-right:40px;
     text-align: right;
-    font-family: 'PPNeueMachina Ultrabold',sans-serif;
+    font-family: 'PPNeueMachina-Ultrabold',sans-serif;
     font-size:50px;
     color: #fff;
     animation: fadeIn 5s;
@@ -167,7 +167,7 @@ width: 1300px;}
     top: 250px;
     right: 50px;
     position: absolute;
-    font-family: "Sporting Grotesque", sans-serif;
+    font-family: "Sporting-Grotesque", sans-serif;
     font-size:14px;
     padding:16px 31px;
     width:auto;
@@ -220,7 +220,7 @@ width: 1300px;}
     }
 } */
 .bodycontainer > #wavepath{grid-area: 13 / 1 / 16 / 13  ; z-index: 9999;
-    font-family: 'PPMonumentExtended Regular', sans-serif;
+    font-family: 'PPMonumentExtended-Regular', sans-serif;
     fill:#fff3df;
     margin-top:-235px;
     height: 400px;
@@ -264,7 +264,7 @@ width: 1300px;}
 .bodycontainer2 > #menutxt{grid-area: 1 / 1 / 2 / 16 span  ; z-index: 8;
 margin-top: 50px;
     padding-left: 90px;
-    font-family: 'PPNeueMachina Ultrabold',sans-serif;
+    font-family: 'PPNeueMachina-Ultrabold',sans-serif;
     font-size:50px;
     color: darkblue;
 }
@@ -277,7 +277,7 @@ margin-top: 50px;
 .bodycontainer2 > #specials {grid-area: 1 / 10 / 2 / 16 span  ; z-index: 8;
     margin-top: 180px;
     padding-left: 90px;
-    font-family: 'PPNeueMachina Ultrabold',sans-serif;
+    font-family: 'PPNeueMachina-Ultrabold',sans-serif;
     font-size:35px;
     color: #ffb061;
 }
@@ -381,7 +381,7 @@ margin-top: -650px;
 input,
 textarea,
 button {
-    font-family: "PPMonumentExtended Black", sans-serif;
+    font-family: "PPMonumentExtended-Black", sans-serif;
     font-size: 100%;
     background: none;
     outline: none;
@@ -412,14 +412,14 @@ ul {
 .handmade-form li,
 .handmade-form .grid > *:not(:last-child) {
     margin-bottom: 1.5rem;
-    font-family: "PPMonumentExtended Black", sans-serif;
+    font-family: "PPMonumentExtended-Black", sans-serif;
     font-size: 100%;  border: none;
     outline: none;
 }
 .handmade-form h3{
     font-size: 190%;
     margin-bottom: 1.5rem;
-    font-family: "PPMonumentExtended Black", sans-serif;
+    font-family: "PPMonumentExtended-Black", sans-serif;
     border: none;
     color:midnightblue;
     outline: none;
@@ -482,7 +482,7 @@ ul {
 }
 
 .handmade-form button {
-    font-family: "PPMonumentExtended Black", sans-serif;
+    font-family: "PPMonumentExtended-Black", sans-serif;
     color: midnightblue;
     padding: 5px 10px;
 }
@@ -510,7 +510,7 @@ ul {
 .navigation{position: relative; z-index: 9999999999999999999999;
     float: right;
 margin-right:310px;
-    font-family: "Sporting Grotesque", sans-serif;
+    font-family: "Sporting-Grotesque", sans-serif;
     max-width: 400px;
     margin-top:-10px;
 }
@@ -518,7 +518,7 @@ p {
     margin: 1px;
     font-size: 36px;
     text-transform: uppercase;
-    font-family: "Sporting Grotesque", sans-serif;
+    font-family: "Sporting-Grotesque", sans-serif;
     font-weight: 600;
     transition: all 1s ease-in-out;
     position: relative;
@@ -526,7 +526,7 @@ p {
 p::before {
     content: attr(data-item);
     transition: all 1s ease-in-out;
-    font-family: "Sporting Grotesque", sans-serif;
+    font-family: "Sporting-Grotesque", sans-serif;
     color: #fff;
     position: absolute;
     top: 0;
