@@ -14,11 +14,17 @@ $(document).ready(function() {
             m = "0" + m;
         }
 
-        if (hr < 6)
+        if (hr < 1)
+        {
+            greet = ('Good Morning! <br> It is ' + ("12" + ":" + m + " AM,") + '<br> and unfortunately, we are closed!');
+            format='AM';
+        }
+        else if (hr > 1 && hr < 6)
         {
             greet = ('Good Morning! <br> It is ' + (h + ":" + m + " AM,") + '<br> and unfortunately, we are closed!');
             format='AM';
         }
+
         else if (hr >6 && hr <12)
         {
             greet = ('Good Morning! <br> It is ' + (h + ":" + m + " AM,") + '<br> and we are open!');
